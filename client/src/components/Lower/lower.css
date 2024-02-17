@@ -1,0 +1,32 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50%;
+  margin: 40px auto;
+}
+
+.search select,
+.search input {
+  padding: 10px;
+  font-weight: bold;
+  outline: 1px solid white;
+}
+
+.search input {
+  border: 1px solid rgb(37, 17, 125);
+  width: 100%;
+}
+.search svg {
+  padding: 7px;
+  background-color: #febd69;
+  color: #1a1a1a;
+}
+.search svg:hover {
+  background-color: #d49644;
+}
+.search:focus-within {
+  border: 2px sol;
+}

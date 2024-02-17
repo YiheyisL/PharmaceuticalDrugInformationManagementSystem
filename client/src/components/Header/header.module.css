@@ -1,0 +1,42 @@
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 255, 0.1);
+  color: black;
+}
+.header__container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.left_wrapper div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.left_wrapper_list a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+.left_wrapper img {
+  height: 100px;
+}
+.write_wrapper {
+  display: flex;
+  font-weight: 600;
+}
+.write_wrapper a {
+  text-decoration: none;
+  color: #000;
+}
+.search1 {
+  font-weight: 600;
+}

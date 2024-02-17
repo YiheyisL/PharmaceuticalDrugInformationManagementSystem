@@ -1,0 +1,26 @@
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.about_content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.about_content h2 {
+  color: #333; /* Dark gray text color */
+}
+
+.about_content p {
+  margin-bottom: 20px;
+}
+h2:hover {
+  color: #822525;
+}
